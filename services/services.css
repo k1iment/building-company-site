@@ -1,0 +1,139 @@
+@media (min-width: 320px) {
+    /*Hero*/
+
+    .hero-background {
+        background-image: url(img/business-5475661_1920.jpg);
+    }
+
+    /*Services*/
+
+    .yellow-border {
+        width: 200px;
+        height: 3px;
+        background: linear-gradient(to right, #f8d578, white);
+        margin-left: 20px;
+    }
+
+    .service-title {
+        color: var(--gray);
+        font-size: 30px;
+        font-weight: 400px;
+        margin: 0 auto;
+        padding-left: 20px;
+        border-left: 7px solid var(--btn-yellow);
+        line-height: 1;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .column-icon {
+        width: 30px;
+        height: 30px;
+        margin: 0 auto;
+        background-size: 100%;
+    }
+
+    .first-icon {
+        background-image: url(img/first.png);
+        margin-bottom: 10px;
+        background-size: 100%;
+    }
+
+    .second-icon {
+        background-image: url(img/second.png);
+        margin-bottom: 10px;
+        background-size: 100%;
+        width: 35px;
+        background-repeat: no-repeat;
+    }
+
+    .third-icon {
+        background-image: url(img/third.png);
+        margin-bottom: 10px;
+        background-size: 100%;
+        background-position: center;
+        height: 35px;
+    }
+
+    .fourtn-icon {
+        background-image: url(img/fourth.png);
+        margin-bottom: 10px;
+        background-repeat: no-repeat;
+    }
+
+    .service-content {
+        margin: 0;
+        font-size: 16px;
+        color: var(--gray);
+    }
+
+    .service-container {
+        width: 300px;
+        margin: 0 auto;
+        padding: 50px 0;
+    }
+
+    .service-column {
+        margin-bottom: 30px;
+        padding-bottom: 15px;
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    .services {
+        margin: 0;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .service-container {
+        width: 700px;
+        display: flex;
+    }
+
+    .yellow-border {
+        margin-left: 270px;
+    }
+
+    .service-title {
+        text-align: left;
+    }
+}
+
+@media (min-width: 1024px) {
+
+    .service-container {
+        width: 800px;
+    }
+}
+
+@media (min-width: 1400px) {
+
+    .service-container {
+        width: 1000px;
+    }
+
+    .yellow-border {
+        margin-left: 400px;
+    }
+
+    .service-column {
+        width: 360px;
+    }
+
+    .service-content {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 1920px) {
+
+    .service-container {
+        width: 1200px;
+    }
+
+    .yellow-border {
+        margin-left: 500px;
+    }
+}
